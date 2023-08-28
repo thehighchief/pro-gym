@@ -1,17 +1,17 @@
 import mongoose from 'mongoose'
 
-const workoutSchema = mongoose.schema({
+const workoutSchema = mongoose.Schema({
     
     title: {
-        type: string,
+        type:  String,
         required: true,
     },
     load: {
-        type: string,
+        type: Number,
         required: true,
     },
     reps: {
-        type: string,
+        type: Number,
         required: true,
     }
 }, {
